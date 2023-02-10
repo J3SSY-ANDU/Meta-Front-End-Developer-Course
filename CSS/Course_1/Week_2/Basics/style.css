@@ -1,0 +1,60 @@
+h1 {
+    color: purple;
+}
+
+#header1 {
+    color: green;
+}
+
+p {
+    font-family: "Courier New", monospace;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: underline red solid 2px;
+    text-align: justify;
+}
+
+#middle {
+    display: block;
+    text-align: center;
+}
+
+.parent {
+    border: 4px solid red;
+    margin-top: 20px;
+}
+
+.child {
+    width: 50%;
+    padding: 20px;
+    border: 4px solid green;
+    margin: auto;
+}
+
+/* To be more precise, in CSS you can set only the left and right margins to auto. This allows you to set the top and bottom margins to specific values if needed */
+.parent_1 {
+    border: 4px solid red;
+}
+
+.child_1 {
+    display: block;
+    padding: 20px;
+    border: 4px solid green;
+    width: 50%;
+    margin: auto;
+}
+
+/* In the following example, the image will be aligned to the right of the div element. The text content will wrap around the image: */
+.parent_2 {
+    border: 4px solid red;
+    text-align: justify;
+    padding: 3px;
+}
+
+.child_2 {
+    padding: 20px;
+    width: 30%;
+    float: right;
+}
+
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Little Lemon</title>
+    </head>
+    <body>
+        <h1>Our Menu</h1>
+        <h2>Falafel</h2>
+        <img src="" alt="Falafel">
+        <p>Chickpea, herbs and spices.</p>
+        <h2>Pasta Salad</h2>
+        <img src="" alt="Pasta Salad">
+        <p>Lettuce, vegetables and mozzarella.</p>
+        <table>
+            <tr>
+                <th>Dish</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Falafel</td>
+                <td>$10.00</td>
+            </tr>
+            <tr>
+                <td>Pasta Salad</td>
+                <td>$12.00</td>
+            </tr>
+        </table>
+
+
+        <!-- form and input types -->
+        <form action="/registration" method="POST">
+
+            <input type="checkbox" name="dog" value="Dog">
+            <label for="dog">I own a dog</label><br>
+            <input type="checkbox" name="cat" value="Cat">
+            <label for="cat">I own a cat</label><br>
+
+            <input type="radio" name="right" value="right">
+            <label for="right">I am a right radio</label><br>
+            <input type="radio" name="left" value="left">
+            <label for="left">I am a left radio</label><br>
+
+            <input type="number" name="age"><br>
+            <input type="email" name="email"><br>
+            <input type="file" name="file"><br>
+
+            <textarea name="multiline" rows="5"></textarea><br>
+            
+            <label for="food">Food: </label>
+            <select name="food" value="food">
+                <option value="chocolate">Chocolate</option>
+                <option value="ice_cream">Ice Cream</option>
+                <option value="tres_leches">Tres leches</option>
+            </select><br>
+
+            <label for="username">Username</label><br>
+            <input type="text" name="username"><br>
+
+            <label for="password">Password</label><br>
+            <input type="password"><br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
